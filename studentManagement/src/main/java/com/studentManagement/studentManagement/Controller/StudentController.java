@@ -32,7 +32,6 @@ public class StudentController {
             Student existingStudent = optionalStudent.get();
             existingStudent.setFirstName(updatedStudent.getFirstName());
             existingStudent.setLastName(updatedStudent.getLastName());
-            // Set other properties as needed
             studentRepository.save(existingStudent);
             return ResponseEntity.ok(existingStudent);
         } else {
