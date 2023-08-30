@@ -1,4 +1,4 @@
 package com.studentManagement.studentManagement.Service;
 
-public class EnrollmentService {
+public interface EnrollmentService {
 }
